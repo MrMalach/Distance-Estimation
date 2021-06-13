@@ -1,12 +1,8 @@
 
 %%---------------------------------------
 %       Digital Image Processing
-%            lab project
 %    Vehicle Distance Estimation
-%            Submitted by 
-%        Ran Malach ® 62887906
-%       Lecturer: Dr. Eyal Katz
-%     Afeka College of Engineering
+%             Ran Malach Â® 
 %%---------------------------------------
 %% Cam Calibration
 clear all; close all;
