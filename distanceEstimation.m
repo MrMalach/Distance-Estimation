@@ -8,14 +8,13 @@
 clear all; close all;
 addpath('CalibrationPics\L');
 addpath('CalibrationPics\R');
-names.L={'L1.jpg','L2.jpg','L3.jpg','L4.jpg','L5.jpg',...
-    'L6.jpg','L7.jpg','L8.jpg','L9.jpg','L10.jpg',...
-    'L11.jpg','L12.jpg','L13.jpg','L14.jpg','L15.jpg',...
-    'L16.jpg','L17.jpg','L18.jpg','L19.jpg','L20.jpg'};
-names.R={'R1.jpg','R2.jpg','R3.jpg','R4.jpg','R5.jpg',...
-    'R6.jpg','R7.jpg','R8.jpg','R9.jpg','R10.jpg',...
-    'R11.jpg','R12.jpg','R13.jpg','R14.jpg','R15.jpg',...
-    'R16.jpg','R17.jpg','R18.jpg','R19.jpg','R20.jpg'};
+numFrames = 20;
+names.L = cell(1, numFrames);
+names.R = cell(1, numFrames);
+for n = 1 : numFrames
+    names.L{n} = ['L' num2str(n) '.jpg'];
+    names.R{n} = ['L' num2str(n) '.jpg'];
+end
 % camList = webcamlist;
 Cam.L=webcam(3);
 Cam.R=webcam(2);
