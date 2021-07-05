@@ -13,7 +13,7 @@ names.L = cell(1, numFrames);
 names.R = cell(1, numFrames);
 for n = 1 : numFrames
     names.L{n} = ['L' num2str(n) '.jpg'];
-    names.R{n} = ['L' num2str(n) '.jpg'];
+    names.R{n} = ['R' num2str(n) '.jpg'];
 end
 % camList = webcamlist;
 Cam.L=webcam(3);
