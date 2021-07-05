@@ -5,4 +5,4 @@ Once the camera's focal length is known, similar triangle easily yield the dista
 
 The object in this case is a red LED.
 
-C:\Users\Ran Malach\Documents\D-1\DIP-lab\proj\setup.jpg
+https://user-images.githubusercontent.com/59388284/124457031-0abd2b80-dd94-11eb-9822-74e0a5c49847.jpg
